@@ -17,6 +17,7 @@
 #import <AVFoundation/AVAudioSession.h>
 #import <CallKit/CallKit.h>
 
+#define DEBUG 1
 #ifdef DEBUG
 static int const OUTGOING_CALL_WAKEUP_DELAY = 10;
 #else
