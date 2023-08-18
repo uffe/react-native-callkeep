@@ -27,6 +27,8 @@
 continueUserActivity:(NSUserActivity *)userActivity
   restorationHandler:(void(^)(NSArray * __nullable restorableObjects))restorationHandler;
 
+- (void)sendEventWithNameWrapper:(NSString *)name body:(id)body;
+            
 + (void)reportNewIncomingCall:(NSString *)uuidString
                        handle:(NSString *)handle
                    handleType:(NSString *)handleType
